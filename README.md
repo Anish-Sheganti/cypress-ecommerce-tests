@@ -1,26 +1,22 @@
-# 🧪 Cypress E-commerce UI Automation Suite
+# Cypress E-commerce UI Automation Suite
 
-This project is an automated end-to-end UI test suite built using [Cypress](https://www.cypress.io/). It covers essential flows of an e-commerce site like:
+## 🛍️ Project Overview
 
-- ✅ Login
-- 🛒 Add to Cart
-- 💳 Checkout
-- ⚠️ Form Validation
+A robust Cypress UI automation suite for the [SauceDemo](https://www.saucedemo.com/) E-commerce application. This project automates key user flows such as:
 
----
+- Logging in
+- Searching for products
+- Adding items to the cart
+- Checking out
+- Validating form error messages
 
-## 📂 Folder Structure
+## ✅ Test Scenarios Covered
 
-ypress/
-├── e2e/ # Test files
-│ ├── login.cy.js
-│ ├── addToCart.cy.js
-│ ├── checkout.cy.js
-│ └── formValidation.cy.js
-├── fixtures/ # Test data
-├── support/ # Custom commands and setup
-
----
+1. **Login Test** – Validates successful login with correct credentials.
+2. **Product Search Test** – Confirms product visibility by name.
+3. **Add to Cart Test** – Verifies that items can be added to the shopping cart.
+4. **Checkout Flow Test** – Completes a full purchase workflow.
+5. **Form Validation Test** – Ensures proper error messages appear when required fields are empty.
 
 ## 🚀 How to Run
 
@@ -28,13 +24,15 @@ ypress/
    ```bash
    git clone https://github.com/kavyasri-singam/cypress-ecommerce-tests.git
    cd cypress-ecommerce-tests
-   
-   npm install
+
+npm install
 
 npx cypress open
 
-✨ Author
+npx cypress run
+👩‍💻 Author
 KavyaSri Singam
+📧 Email: kadambari1102000@gmail.com
 
 🧰 Tech Stack
 Cypress
@@ -42,3 +40,4 @@ Cypress
 JavaScript
 
 Node.js
+
