@@ -1,32 +1,44 @@
-# Cypress E-Commerce UI Test Suite
+# 🧪 Cypress E-commerce UI Automation Suite
 
-This project is a demo E-Commerce automation framework using **Cypress**.
+This project is an automated end-to-end UI test suite built using [Cypress](https://www.cypress.io/). It covers essential flows of an e-commerce site like:
 
-## ✅ Test Scenarios Covered
-
-- **Login Test** – Validates successful login with correct credentials
-- **Add to Cart Test** – Adds a product to the cart and verifies cart count
-- **Checkout Test** – Completes the checkout process
-- **Form Validation Test** – Validates required fields and error handling
-- **Product Search Test** – Searches for products on the site
-
-## 🧪 Tech Stack
-
-- Cypress 14+
-- JavaScript
-- Mochawesome Reporter (optional for test reports)
-
-## ▶️ How to Run
-
-1. Clone this repo  
-2. Run `npm install`  
-3. Run `npx cypress open`  
-4. Click on any spec to run the test
-
-## 📷 Test Demo
-
-All tests are written to simulate user interaction on [saucedemo.com](https://www.saucedemo.com).
+- ✅ Login
+- 🛒 Add to Cart
+- 💳 Checkout
+- ⚠️ Form Validation
 
 ---
 
-Made with 💻 by KavyaSri
+## 📂 Folder Structure
+
+ypress/
+├── e2e/ # Test files
+│ ├── login.cy.js
+│ ├── addToCart.cy.js
+│ ├── checkout.cy.js
+│ └── formValidation.cy.js
+├── fixtures/ # Test data
+├── support/ # Custom commands and setup
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/kavyasri-singam/cypress-ecommerce-tests.git
+   cd cypress-ecommerce-tests
+   
+   npm install
+
+npx cypress open
+
+✨ Author
+KavyaSri Singam
+
+🧰 Tech Stack
+Cypress
+
+JavaScript
+
+Node.js
