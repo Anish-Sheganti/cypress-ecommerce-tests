@@ -30,9 +30,6 @@ npm install
 npx cypress open
 
 npx cypress run
-👩‍💻 Author
-KavyaSri Singam
-📧 Email: kadambari1102000@gmail.com
 
 🧰 Tech Stack
 Cypress
@@ -40,4 +37,8 @@ Cypress
 JavaScript
 
 Node.js
+
+👩‍💻 Author
+KavyaSri Singam
+📧 Email: kadambari1102000@gmail.com
 
