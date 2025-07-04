@@ -41,7 +41,5 @@ npx cypress run
 
 
 
-👩‍💻 Author
-KavyaSri Singam
-📧 Email: kadambari1102000@gmail.com
+
 
